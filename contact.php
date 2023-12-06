@@ -82,7 +82,7 @@
 					<div class="header__bottom__inner">
 
 						<div class="header__logo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="assets/images/logo/logo1.png" alt="header logo">
 							</a>
 						</div>
@@ -91,18 +91,18 @@
 						<nav id="main-navigation" class="header__menu main-navigation d-none d-lg-flex">
 							<ul>
 								<li>
-									<a href="index.html">HOME</a>
+									<a href="index.php">HOME</a>
 								
 								</li>
-								<li><a href="about-us.html">ABOUT</a></li>
-								<li><a href="our-team.html">OUR-TEAM</a></li>					
+								<li><a href="about-us.php">ABOUT</a></li>
+								<li><a href="our-team.php">OUR-TEAM</a></li>					
 								<li>
-									<a href="services.html">SERVICES</a>
+									<a href="services.php">SERVICES</a>
 						
 								</li>
 							
 					
-								<li><a href="contact.html">CONTACT</a></li>
+								<li><a href="contact.php">CONTACT</a></li>
 							</ul>
 						</nav>
 						<!--// Main Navigation -->
@@ -128,7 +128,7 @@
 					<div class="col-xl-5 col-lg-6 col-md-8">
 						<div class="cr-breadcrumb">
 							<ul class="cr-breadcrumb__pagination">
-								<li><a href="index.html">Home</a></li>
+								<li><a href="index.php">Home</a></li>
 								<li>Contact</li>
 							</ul>
 							<h1>Contact Us</h1>
@@ -144,7 +144,7 @@
 		<div class="offcanvas offcanvas-start" tabindex="2" id="offcanvasMenu">
 			<div class="offcanvas-header">
 				<div class="offcanvas__logo">
-					<a href="index.html">
+					<a href="index.php">
 						<img src="assets/images/logo/logo1.png" alt="header logo">
 					</a>
 				</div>
@@ -165,19 +165,19 @@
 				<nav class="canvas-menu">
 					<ul>
 						<li>
-							<a href="index.html">HOME</a>
+							<a href="index.php">HOME</a>
 					
 						</li>
-						<li><a href="about-us.html">ABOUT</a></li>
-						<li><a href="our-team.html">OUR-TEAM</a></li>
+						<li><a href="about-us.php">ABOUT</a></li>
+						<li><a href="our-team.php">OUR-TEAM</a></li>
 			
 						<li>
-							<a href="services.html">SERVICES</a>
+							<a href="services.php">SERVICES</a>
 						
 						</li>
 			
 
-						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href="contact.php">CONTACT</a></li>
 					</ul>
 				</nav>
 				<!--// Main Navigation -->
@@ -207,7 +207,7 @@
 										<h2>SEND A MESSAGE</h2>
 									</div>
 									<div class="pg-appintment__box">
-										<form id="contact-form" action="#" method="POST">
+										<form id="contact-form" action="mail.php" method="POST">
 											<div class="row">
 												<div class="col-lg-6 col-md-6">
 													<div class="single-input">
@@ -326,7 +326,7 @@ Pretoria, South Africa</p>
 			<div class="footer-area__widgets section-padding--md bg--dark--light">
 				<div class="container">
 					<div class="footer-area__logo text-center">
-						<a href="index.html">
+						<a href="index.php">
 							<img src="assets/images/logo/logo.png" alt="footer logo">
 						</a>
 					</div>
@@ -369,17 +369,17 @@ Pretoria, South Africa</p>
 							<h5 class="widget-title">QUICK LINKS</h5>
 							<ul>
 								<li>
-									<a href="services.html">Our Services</a>
+									<a href="services.php">Our Services</a>
 								</li>
 							
 								<li>
-									<a href="about-us.html">About Us</a>
+									<a href="about-us.php">About Us</a>
 								</li>
 								<li>
 									<a href="#">Help Centre</a>
 								</li>
 								<li>
-									<a href="contact.html">Contact Us</a>
+									<a href="contact.php">Contact Us</a>
 								</li>
 							</ul>
 						</section>

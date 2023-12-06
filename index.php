@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -85,7 +86,7 @@
 					<div class="header__bottom__inner">
 
 						<div class="header__logo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="assets/images/logo/logo1.png" alt="header logo">
 							</a>
 						</div>
@@ -94,18 +95,18 @@
 						<nav id="main-navigation" class="header__menu main-navigation d-none d-lg-flex">
 							<ul>
 								<li>
-									<a href="index.html">HOME</a>
+									<a href="index.php">HOME</a>
 								
 								</li>
-								<li><a href="about-us.html">ABOUT</a></li>
-								<li><a href="our-team.html">OUR-TEAM</a></li>					
+								<li><a href="about-us.php">ABOUT</a></li>
+								<li><a href="our-team.php">OUR-TEAM</a></li>					
 								<li>
-									<a href="services.html">SERVICES</a>
+									<a href="services.php">SERVICES</a>
 						
 								</li>
 							
 					
-								<li><a href="contact.html">CONTACT</a></li>
+								<li><a href="contact.php">CONTACT</a></li>
 							</ul>
 						</nav>
 						<!--// Main Navigation -->
@@ -137,7 +138,7 @@
 									<h1>WORRIED
 										<span class="color--theme">ABOUT TAX?</span> WE ARE EXPERT IN
 										<span class="color--theme">TAX</span> SOLUTIONS</h1>
-									<a href="contact.html" class="cr-btn">
+									<a href="contact.php" class="cr-btn">
 										<span>Contact Now</span>
 									</a>
 								</div>
@@ -156,7 +157,7 @@
 									<h1>ARE
 										<span class="color--theme">YOU LOOKING FOR</span> A TAX PARTHER WITH
 										<span class="color--theme">YEARS OF </span> EXPERIENCE?</h1>
-									<a href="contact.html" class="cr-btn">
+									<a href="contact.php" class="cr-btn">
 										<span>Contact Now</span>
 									</a>
 								</div>
@@ -175,7 +176,7 @@
 									<h1>SPEAK
 										<span class="color--theme">TO YOUR FRIENDLY </span> ACCOUNTANTS
 										<span class="color--theme">YOU CAN </span> COUNT ON.</h1>
-									<a href="contact.html" class="cr-btn">
+									<a href="contact.php" class="cr-btn">
 										<span>Contact Now</span>
 									</a>
 								</div>
@@ -193,7 +194,7 @@
 		<div class="offcanvas offcanvas-start" tabindex="2" id="offcanvasMenu">
 			<div class="offcanvas-header">
 				<div class="offcanvas__logo">
-					<a href="index.html">
+					<a href="index.php">
 						<img src="assets/images/logo/logo1.png" alt="header logo">
 					</a>
 				</div>
@@ -214,19 +215,19 @@
 				<nav class="canvas-menu">
 					<ul>
 						<li>
-							<a href="index.html">HOME</a>
+							<a href="index.php">HOME</a>
 					
 						</li>
-						<li><a href="about-us.html">ABOUT</a></li>
-						<li><a href="our-team.html">OUR-TEAM</a></li>
+						<li><a href="about-us.php">ABOUT</a></li>
+						<li><a href="our-team.php">OUR-TEAM</a></li>
 			
 						<li>
-							<a href="services.html">SERVICES</a>
+							<a href="services.php">SERVICES</a>
 						
 						</li>
 			
 
-						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href="contact.php">CONTACT</a></li>
 					</ul>
 				</nav>
 				<!--// Main Navigation -->
@@ -270,7 +271,7 @@
 										Integrity<br>
 										Quality<br>
 										Professionalism</p>
-									<a href="about-us.html" class="cr-btn">
+									<a href="about-us.php" class="cr-btn">
 										<span>Read More</span>
 									</a>
 								</div>
@@ -647,7 +648,7 @@
 			<div class="footer-area__widgets section-padding--md bg--dark--light">
 				<div class="container">
 					<div class="footer-area__logo text-center">
-						<a href="index.html">
+						<a href="index.php">
 							<img src="assets/images/logo/logo.png" alt="footer logo">
 						</a>
 					</div>
@@ -690,17 +691,17 @@
 							<h5 class="widget-title">QUICK LINKS</h5>
 							<ul>
 								<li>
-									<a href="services.html">Our Services</a>
+									<a href="services.php">Our Services</a>
 								</li>
 							
 								<li>
-									<a href="about-us.html">About Us</a>
+									<a href="about-us.php">About Us</a>
 								</li>
 								<li>
 									<a href="#">Help Centre</a>
 								</li>
 								<li>
-									<a href="contact.html">Contact Us</a>
+									<a href="contact.php">Contact Us</a>
 								</li>
 							</ul>
 						</section>

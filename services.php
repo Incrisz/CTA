@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -39,18 +40,19 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+
 <body>
 	<!--[if lte IE 9]>
 		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 	<![endif]-->
 
 	<!-- Add your site or application content here -->
-	
+
 	<div class="fakeloader"></div>
 
 	<!-- Main wrapper -->
 	<div class="wrapper" id="wrapper">
-		
+
 		<!-- Header -->
 		<header id="header" class="header sticky--header">
 
@@ -82,7 +84,7 @@
 					<div class="header__bottom__inner">
 
 						<div class="header__logo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="assets/images/logo/logo1.png" alt="header logo">
 							</a>
 						</div>
@@ -91,18 +93,18 @@
 						<nav id="main-navigation" class="header__menu main-navigation d-none d-lg-flex">
 							<ul>
 								<li>
-									<a href="index.html">HOME</a>
+									<a href="index.php">HOME</a>
 								
 								</li>
-								<li><a href="about-us.html">ABOUT</a></li>
-								<li><a href="our-team.html">OUR-TEAM</a></li>					
+								<li><a href="about-us.php">ABOUT</a></li>
+								<li><a href="our-team.php">OUR-TEAM</a></li>					
 								<li>
-									<a href="services.html">SERVICES</a>
+									<a href="services.php">SERVICES</a>
 						
 								</li>
 							
 					
-								<li><a href="contact.html">CONTACT</a></li>
+								<li><a href="contact.php">CONTACT</a></li>
 							</ul>
 						</nav>
 						<!--// Main Navigation -->
@@ -128,22 +130,25 @@
 					<div class="col-xl-5 col-lg-6 col-md-8">
 						<div class="cr-breadcrumb">
 							<ul class="cr-breadcrumb__pagination">
-								<li><a href="index.html">Home</a></li>
-								<li>Team</li>
+								<li>
+									<a href="index.php">Home</a>
+								</li>
+								<li>SERVICE</li>
 							</ul>
-							<h1>Our Team</h1>
-							<!-- <p>perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem  </p> -->
+							<h1>Our Services</h1>
+							<!-- <p>perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem </p> -->
 						</div>
 					</div>
 				</div>
 			</div>
-		</div><!--// Breadcrumb Area -->
+		</div>
+		<!--// Breadcrumb Area -->
 
 		<!-- Offcanvas -->		  
 		<div class="offcanvas offcanvas-start" tabindex="2" id="offcanvasMenu">
 			<div class="offcanvas-header">
 				<div class="offcanvas__logo">
-					<a href="index.html">
+					<a href="index.php">
 						<img src="assets/images/logo/logo1.png" alt="header logo">
 					</a>
 				</div>
@@ -164,19 +169,19 @@
 				<nav class="canvas-menu">
 					<ul>
 						<li>
-							<a href="index.html">HOME</a>
+							<a href="index.php">HOME</a>
 					
 						</li>
-						<li><a href="about-us.html">ABOUT</a></li>
-						<li><a href="our-team.html">OUR-TEAM</a></li>
+						<li><a href="about-us.php">ABOUT</a></li>
+						<li><a href="our-team.php">OUR-TEAM</a></li>
 			
 						<li>
-							<a href="services.html">SERVICES</a>
+							<a href="services.php">SERVICES</a>
 						
 						</li>
 			
 
-						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href="contact.php">CONTACT</a></li>
 					</ul>
 				</nav>
 				<!--// Main Navigation -->
@@ -192,182 +197,222 @@
 
 		<!-- Page Conent -->
 		<main class="page-content">
-			
-		
 
-			<!-- Team Area -->
-			<section id="team-area-2" class="advisor-area bg--white section-padding-bottom--xlg">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-lg-8 col-md-10">
-							<div class="section-title text-center">
-								<h4>OUR TEAM</h4>
-								<h2>MEET OUR  <span class="color--theme">TAX ADVISOR</span></h2>
-								<p>Our Team comprises of young & experienced Accountants, Bookkeepers , technology experts, lawyers having versatile experience of their respective fields.</p>
+			<!-- Page Service Area -->
+			<section id="pg-services-area" class="cr-section pg-services-area section-padding--xlg">
+
+				<!-- Pg Service Area Top -->
+				<div class="pg-services-area__description">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-7 order-2 order-lg-1">
+								<div class="pg-services__details">
+									<h4>Here for your Accounting Needs
+									</h4>
+									<h3>WE PROVIDE BEST
+										<span class="color--theme">SERVICES FOR YOU</span>
+									</h3>
+									<p>We are committed to our clients’ sustainable growth. We provide a wide range of services to our clients, specialising in audit, accountancy, and tax advisory services.
+
+									</p>
+									<p><b>Stay on Top :</b> Having a private accountant can help you stay on top of your tax matters.</p>
+									<p><b>Save Time :</b>
+										You don’t have to do all the tasks yourself, we can help you deal with the company’s most important obligations.</p>
+								</div>
+							</div>
+							<div class="col-lg-5 order-1 order-lg-2">
+								<div class="pg-services__thumb wow fadeInRight">
+									<img src="assets/images/services/sevices-thumb-right.webp" alt="services thumb">
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="row advisors advisors--style2">
-						
-						<!-- Single Advisor -->
-						<div class="col-lg-3 col-sm-6">
-							<div class="advisor advisor--style2">
-								<div class="advisor__image">
-									<img src="assets/images/advisors/new/CEO .jpg" alt="team member">
-								</div>
-								<div class="advisor__content">
-									<h5><a href="#">Mr. Admire Muchenje</a></h5>
-									<p>CEO</p>
-								</div>
-								<div class="advisor__social-icons social-icons">
-									<ul>
-										<li class="facebook"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-										<li class="twitter"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-										<li class="instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-										<li class="google-plus"><a href="https://plus.google.com/discover"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div><!--// Single Advisor -->
-						
-						<!-- Single Advisor -->
-						<div class="col-lg-3 col-sm-6">
-							<div class="advisor advisor--style2">
-								<div class="advisor__image">
-									<img src="assets/images/advisors/new/Mr. Muyideen Alabi (Legal).jpg" alt="team member">
-								</div>
-								<div class="advisor__content">
-									<h5><a href="#">Mr. Muyideen Alabi</a></h5>
-									<p>Legal</p>
-								</div>
-								<div class="advisor__social-icons social-icons">
-									<ul>
-										<li class="facebook"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-										<li class="twitter"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-										<li class="instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-										<li class="google-plus"><a href="https://plus.google.com/discover"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div><!--// Single Advisor -->
-						
-						<!-- Single Advisor -->
-						<div class="col-lg-3 col-sm-6">
-							<div class="advisor advisor--style2">
-								<div class="advisor__image">
-									<img src="assets/images/advisors/new/Cynthia Radebe - Office Manager.jpg" alt="team member">
-								</div>
-								<div class="advisor__content">
-									<h5><a href="#">Cynthia Radebe</a></h5>
-									<p>Office Manager</p>
-								</div>
-								<div class="advisor__social-icons social-icons">
-									<ul>
-										<li class="facebook"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-										<li class="twitter"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-										<li class="instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-										<li class="google-plus"><a href="https://plus.google.com/discover"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div><!--// Single Advisor -->
-						
-						<!-- Single Advisor -->
-						<div class="col-lg-3 col-sm-6">
-							<div class="advisor advisor--style2">
-								<div class="advisor__image">
-									<img src="assets/images/advisors/new/Dumsile Mamba - Accountant.jpg" alt="team member">
-								</div>
-								<div class="advisor__content">
-									<h5><a href="#">Dumsile Mamba</a></h5>
-									<p>Accountant</p>
-								</div>
-								<div class="advisor__social-icons social-icons">
-									<ul>
-										<li class="facebook"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-										<li class="twitter"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-										<li class="instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-										<li class="google-plus"><a href="https://plus.google.com/discover"><i class="fa fa-google-plus"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div><!--// Single Advisor -->
-								
-						
-						
-						
-						<!-- Single Advisor -->
-								<div class="col-lg-3 col-sm-6">
-									<div class="advisor advisor--style2">
-										<div class="advisor__image">
-											<img src="assets/images/advisors/new/Nthabiseng Gebashe - Accountant.jpg" alt="team member">
-										</div>
-										<div class="advisor__content">
-											<h5><a href="#">Miss Nthabiseng Gebashe</a></h5>
-											<p>Accountant</p>
-										</div>
-										<div class="advisor__social-icons social-icons">
-											<ul>
-												<li class="facebook"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-												<li class="twitter"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-												<li class="instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-												<li class="google-plus"><a href="https://plus.google.com/discover"><i class="fa fa-google-plus"></i></a></li>
-											</ul>
-										</div>
+				</div>
+				<!--// Pg Service Area Top -->
+
+				<!-- Services Styles Bottom -->
+				<div class="pg-services-area__srevicelist servicelist--style2">
+					<div class="container">
+						<div class="row">
+
+							<!-- Single Service -->
+							<div class="col-lg-4 col-md-6 wow flipInX">
+								<div class="service">
+									<div class="service__icon">
+										<img src="assets/images/icons/service-icon-user.webp" alt="service icon">
 									</div>
-								</div><!--// Single Advisor -->
-								
-								<!-- Single Advisor -->
-								<div class="col-lg-3 col-sm-6">
-									<div class="advisor advisor--style2">
-										<div class="advisor__image">
-											<img src="assets/images/advisors/new/Paula Matema - Bookkeeper.jpg" alt="team member">
-										</div>
-										<div class="advisor__content">
-											<h5><a href="#">Miss Paula Matema</a></h5>
-											<p>Bookkeeper</p>
-										</div>
-										<div class="advisor__social-icons social-icons">
-											<ul>
-												<li class="facebook"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-												<li class="twitter"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-												<li class="instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-												<li class="google-plus"><a href="https://plus.google.com/discover"><i class="fa fa-google-plus"></i></a></li>
-											</ul>
-										</div>
+									<div class="service__content">
+										<h5>
+											<a href="#">ACCOUNTING</a>
+										</h5>
+										<p>
+											Financial statements <br>
+											Book Keeping<br>
+											Managements Accounts<br>
+											Payroll Management<br>
+											cashflow Statements and Budgets </p>
 									</div>
-								</div><!--// Single Advisor -->
-								
-								<!-- Single Advisor -->
-								<!-- <div class="col-lg-3 col-sm-6">
-									<div class="advisor advisor--style2">
-										<div class="advisor__image">
-											<img src="assets/images/advisors/Esther-Madu.png" alt="team member">
-										</div>
-										<div class="advisor__content">
-											<h5><a href="#">Miss Henriette Esther Mwadu</a></h5>
-											<p>Administrator</p>
-										</div>
-										<div class="advisor__social-icons social-icons">
-											<ul>
-												<li class="facebook"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-												<li class="twitter"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-												<li class="instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-												<li class="google-plus"><a href="https://plus.google.com/discover"><i class="fa fa-google-plus"></i></a></li>
-											</ul>
-										</div>
+								</div>
+							</div>
+							<!--// Single Service -->
+
+							<!-- Single Service -->
+							<div class="col-lg-4 col-md-6 wow flipInX">
+								<div class="service">
+									<div class="service__icon">
+										<img src="assets/images/icons/service-icon-bar.webp" alt="service icon">
 									</div>
-								</div> -->
-								<!--// Single Advisor -->
+									<div class="service__content">
+										<h5>
+											<a href="#">ASSURANCE</a>
+										</h5>
+										<p>
+											Review Engagements<br>
+											Reviewing<br>
+											System Reviewing & Design </p>
+									</div>
+								</div>
+							</div>
+							<!--// Single Service -->
+
+							<!-- Single Service -->
+							<div class="col-lg-4 col-md-6 wow flipInX">
+								<div class="service">
+									<div class="service__icon">
+										<img src="assets/images/icons/service-icon-home.webp" alt="service icon">
+									</div>
+									<div class="service__content">
+										<h5>
+											<a href="#">TAXATION</a>
+										</h5>
+										<p>
+											SARS Tax Returns<br>
+											VAT Returns<br>
+											Individual :Tax Returns<br>
+											Payee returns </p>
+									</div>
+								</div>
+							</div>
+							<!--// Single Service -->
+
+							<!-- Single Service -->
+							<div class="col-lg-4 col-md-6 wow flipInX">
+								<div class="service">
+									<div class="service__icon">
+										<img src="assets/images/icons/service-icon-briefcase.webp" alt="service icon">
+									</div>
+									<div class="service__content">
+										<h5>
+											<a href="#">SECRETARIAL SERVICES</a>
+										</h5>
+										<p>
+											Cipro Services<br>
+											COIDA; CIDB; UIF<br>
+											Customs Registration<br>
+											Business Plans </p>
+									</div>
+								</div>
+							</div>
+							<!--// Single Service -->
+
+							<!-- Single Service -->
+							<div class="col-lg-4 col-md-6 wow flipInX">
+								<div class="service">
+									<div class="service__icon">
+										<img src="assets/images/icons/service-icon-briefcase-2.webp" alt="service icon">
+									</div>
+									<div class="service__content">
+										<h5>
+											<a href="#">International TAX</a>
+										</h5>
+										<p>Having a private accountant can help you stay on top of your tax matters. </p>
+									</div>
+								</div>
+							</div>
+							<!--// Single Service -->
+
+							<!-- Single Service -->
+							<div class="col-lg-4 col-md-6 wow flipInX">
+								<div class="service">
+									<div class="service__icon">
+										<img src="assets/images/icons/service-icon-pie.webp" alt="service icon">
+									</div>
+									<div class="service__content">
+										<h5>
+											<a href="#">Finance TAX</a>
+										</h5>
+										<p>Having a private accountant can help you stay on top of your tax matters. </p>
+									</div>
+								</div>
+							</div>
+							<!--// Single Service -->
+
+						</div>
+					</div>
+				</div>
+				<!--// Services Styles Bottom -->
+
+			</section>
+			<!--// Page Service Area -->
+
+			<!-- Funfact Area -->
+			<div id="funfact-area" class="funfact-area bg--white">
+				<div class="funfacts">
+					<div class="row g-0">
+
+						<!--  Single Funfact -->
+						<div class="col-lg-3 col-sm-6">
+							<div class="funfact text-center">
+								<h1>
+									<span class="counter">349</span>
+								</h1>
+								<h5>TRUSTED CLIENTS</h5>
+							</div>
+						</div>
+						<!--//  Single Funfact -->
+
+						<!--  Single Funfact -->
+						<div class="col-lg-3 col-sm-6">
+							<div class="funfact text-center">
+								<h1>
+									<span class="counter">109</span>
+								</h1>
+								<h5>Awards Win</h5>
+							</div>
+						</div>
+						<!--//  Single Funfact -->
+
+						<!--  Single Funfact -->
+						<div class="col-lg-3 col-sm-6">
+							<div class="funfact text-center">
+								<h1>
+									<span class="counter">459</span>
+								</h1>
+								<h5>Project Done</h5>
+							</div>
+						</div>
+						<!--//  Single Funfact -->
+
+						<!--  Single Funfact -->
+						<div class="col-lg-3 col-sm-6">
+							<div class="funfact text-center">
+								<h1>
+									<span class="counter">19</span>
+								</h1>
+								<h5>Expert Advisor</h5>
+							</div>
+						</div>
+						<!--//  Single Funfact -->
 
 					</div>
 				</div>
-			</section><!--// Team Area -->
+			</div>
+			<!--// Funfact Area -->
 
-	
+		
 
 			<!-- Call To Action Area -->
-			<section id="cta-area" class="cta-area section-padding--sm bg--grey--light bg--abstruct-mask">
+		<section id="cta-area" class="cta-area section-padding--sm bg--grey--light bg--abstruct-mask">
 
 				<div class="container">
 					<div class="row justify-content-center">
@@ -385,17 +430,18 @@
 				</div>
 			</section>
 			<!--// Call To Action Area -->
-			
-		</main><!-- //Page Conent -->
+
+		</main>
+		<!-- //Page Conent -->
 
 		<!-- Footer Area -->
 		<footer id="footer" class="footer-area fixed--footer">
-			
-		<!-- Footer Widgets Area -->
+
+			<!-- Footer Widgets Area -->
 			<div class="footer-area__widgets section-padding--md bg--dark--light">
 				<div class="container">
 					<div class="footer-area__logo text-center">
-						<a href="index.html">
+						<a href="index.php">
 							<img src="assets/images/logo/logo.png" alt="footer logo">
 						</a>
 					</div>
@@ -438,17 +484,17 @@
 							<h5 class="widget-title">QUICK LINKS</h5>
 							<ul>
 								<li>
-									<a href="services.html">Our Services</a>
+									<a href="services.php">Our Services</a>
 								</li>
 							
 								<li>
-									<a href="about-us.html">About Us</a>
+									<a href="about-us.php">About Us</a>
 								</li>
 								<li>
 									<a href="#">Help Centre</a>
 								</li>
 								<li>
-									<a href="contact.html">Contact Us</a>
+									<a href="contact.php">Contact Us</a>
 								</li>
 							</ul>
 						</section>
@@ -502,9 +548,11 @@ Pretoria, South Africa</p>
 			</div>
 			<!--// Footer Copyright Area -->
 
-		</footer><!-- //Footer Area -->
+		</footer>
+		<!-- //Footer Area -->
 
-	</div><!-- //Main wrapper -->
+	</div>
+	<!-- //Main wrapper -->
 	
 	<!-- Back To Top Start -->
     <button id="backBTn" class="backbtn"><i class="fa fa-angle-up"></i></button>
@@ -533,5 +581,7 @@ Pretoria, South Africa</p>
     <script src="assets/js/scripts.js"></script>
 
 </body>
+
+
 
 </html>

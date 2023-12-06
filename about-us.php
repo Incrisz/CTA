@@ -42,9 +42,7 @@
 </head>
 
 <body>
-	<!--[if lte IE 9]>
-		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-	<![endif]-->
+
 
 	<!-- Add your site or application content here -->
 
@@ -84,7 +82,7 @@
 					<div class="header__bottom__inner">
 
 						<div class="header__logo">
-							<a href="index.html">
+							<a href="index.php">
 								<img src="assets/images/logo/logo1.png" alt="header logo">
 							</a>
 						</div>
@@ -93,18 +91,18 @@
 						<nav id="main-navigation" class="header__menu main-navigation d-none d-lg-flex">
 							<ul>
 								<li>
-									<a href="index.html">HOME</a>
+									<a href="index.php">HOME</a>
 								
 								</li>
-								<li><a href="about-us.html">ABOUT</a></li>
-								<li><a href="our-team.html">OUR-TEAM</a></li>					
+								<li><a href="about-us.php">ABOUT</a></li>
+								<li><a href="our-team.php">OUR-TEAM</a></li>					
 								<li>
-									<a href="services.html">SERVICES</a>
+									<a href="services.php">SERVICES</a>
 						
 								</li>
 							
 					
-								<li><a href="contact.html">CONTACT</a></li>
+								<li><a href="contact.php">CONTACT</a></li>
 							</ul>
 						</nav>
 						<!--// Main Navigation -->
@@ -131,12 +129,12 @@
 						<div class="cr-breadcrumb">
 							<ul class="cr-breadcrumb__pagination">
 								<li>
-									<a href="index.html">Home</a>
+									<a href="index.php">Home</a>
 								</li>
-								<li>SERVICE</li>
+								<li>About</li>
 							</ul>
-							<h1>Our Services</h1>
-							<!-- <p>perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem </p> -->
+							<h1>About Us</h1>
+							<p>CTA Tax and Business Services is an accounting firm that provides various services in the broad accounting and financing field. cta provides a multitude of services to a wide variety of clients from its presence in Pretoria. </p>
 						</div>
 					</div>
 				</div>
@@ -148,7 +146,7 @@
 		<div class="offcanvas offcanvas-start" tabindex="2" id="offcanvasMenu">
 			<div class="offcanvas-header">
 				<div class="offcanvas__logo">
-					<a href="index.html">
+					<a href="index.php">
 						<img src="assets/images/logo/logo1.png" alt="header logo">
 					</a>
 				</div>
@@ -169,19 +167,19 @@
 				<nav class="canvas-menu">
 					<ul>
 						<li>
-							<a href="index.html">HOME</a>
+							<a href="index.php">HOME</a>
 					
 						</li>
-						<li><a href="about-us.html">ABOUT</a></li>
-						<li><a href="our-team.html">OUR-TEAM</a></li>
+						<li><a href="about-us.php">ABOUT</a></li>
+						<li><a href="our-team.php">OUR-TEAM</a></li>
 			
 						<li>
-							<a href="services.html">SERVICES</a>
+							<a href="services.php">SERVICES</a>
 						
 						</li>
 			
 
-						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href="contact.php">CONTACT</a></li>
 					</ul>
 				</nav>
 				<!--// Main Navigation -->
@@ -198,162 +196,222 @@
 		<!-- Page Conent -->
 		<main class="page-content">
 
-			<!-- Page Service Area -->
-			<section id="pg-services-area" class="cr-section pg-services-area section-padding--xlg">
+			<!-- About Area -->
+			<section id="about-area" class="cr-section about-area bg--white">
+				<div class="container">
+					<div class="row justify-content-center align-items-center">
+						<div class="col-lg-10">
+							<div class="about-area__content2 text-center">
+								<h4>WE ARE “
+									<span class="color--theme">CTA</span>”</h4>
+								<h3 class="cd-headline cx-heading slide">PROVIDE BEST TAX SOLUTION FOR YOUR
+									<span class="color--theme cd-words-wrapper cd-words-wrapper-2">
+										<b class="is-visible">Business</b>
+										<b>Performance</b>
+										<b>Success</b>
+									</span>
+									TO GROWUP</h3>
+								<p>CTA Tax and Business Services is an accounting firm that provides various services in the broad accounting and financing field. cta provides a multitude of services to a wide variety of clients from its presence in Pretoria.</p>
+								<p>The founding partner is a qualified chartered accountant, his qualification was obtained from the UK.the firm represents cumulative professional work experience.
 
-				<!-- Pg Service Area Top -->
-				<div class="pg-services-area__description">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-7 order-2 order-lg-1">
-								<div class="pg-services__details">
-									<h4>Here for your Accounting Needs
-									</h4>
-									<h3>WE PROVIDE BEST
-										<span class="color--theme">SERVICES FOR YOU</span>
-									</h3>
-									<p>We are committed to our clients’ sustainable growth. We provide a wide range of services to our clients, specialising in audit, accountancy, and tax advisory services.
-
-									</p>
-									<p><b>Stay on Top :</b> Having a private accountant can help you stay on top of your tax matters.</p>
-									<p><b>Save Time :</b>
-										You don’t have to do all the tasks yourself, we can help you deal with the company’s most important obligations.</p>
-								</div>
+									Our mission, vision and core values are the basis of our approach to business which in turn is based on our conscience to deliver multi-professional services with utmost intergrity and professionalism.</p>
+									<p>our customers. the main beneficiaries of our expertise and services, will be the ones to experience the intergrity and professionalism of our work..</p>
+								<!-- <a href="#" class="cr-readmore">
+									<span>Read More</span>
+								</a> -->
 							</div>
-							<div class="col-lg-5 order-1 order-lg-2">
-								<div class="pg-services__thumb wow fadeInRight">
-									<img src="assets/images/services/sevices-thumb-right.webp" alt="services thumb">
-								</div>
+						</div>
+						<div class="col-lg-12">
+							<div class="about-area__image2">
+								<!-- <img src="assets/images/about/about-thumbnail-3.webp" alt="about area image"> -->
 							</div>
 						</div>
 					</div>
 				</div>
-				<!--// Pg Service Area Top -->
-
-				<!-- Services Styles Bottom -->
-				<div class="pg-services-area__srevicelist servicelist--style2">
-					<div class="container">
-						<div class="row">
-
-							<!-- Single Service -->
-							<div class="col-lg-4 col-md-6 wow flipInX">
-								<div class="service">
-									<div class="service__icon">
-										<img src="assets/images/icons/service-icon-user.webp" alt="service icon">
-									</div>
-									<div class="service__content">
-										<h5>
-											<a href="#">ACCOUNTING</a>
-										</h5>
-										<p>
-											Financial statements <br>
-											Book Keeping<br>
-											Managements Accounts<br>
-											Payroll Management<br>
-											cashflow Statements and Budgets </p>
-									</div>
-								</div>
-							</div>
-							<!--// Single Service -->
-
-							<!-- Single Service -->
-							<div class="col-lg-4 col-md-6 wow flipInX">
-								<div class="service">
-									<div class="service__icon">
-										<img src="assets/images/icons/service-icon-bar.webp" alt="service icon">
-									</div>
-									<div class="service__content">
-										<h5>
-											<a href="#">ASSURANCE</a>
-										</h5>
-										<p>
-											Review Engagements<br>
-											Reviewing<br>
-											System Reviewing & Design </p>
-									</div>
-								</div>
-							</div>
-							<!--// Single Service -->
-
-							<!-- Single Service -->
-							<div class="col-lg-4 col-md-6 wow flipInX">
-								<div class="service">
-									<div class="service__icon">
-										<img src="assets/images/icons/service-icon-home.webp" alt="service icon">
-									</div>
-									<div class="service__content">
-										<h5>
-											<a href="#">TAXATION</a>
-										</h5>
-										<p>
-											SARS Tax Returns<br>
-											VAT Returns<br>
-											Individual :Tax Returns<br>
-											Payee returns </p>
-									</div>
-								</div>
-							</div>
-							<!--// Single Service -->
-
-							<!-- Single Service -->
-							<div class="col-lg-4 col-md-6 wow flipInX">
-								<div class="service">
-									<div class="service__icon">
-										<img src="assets/images/icons/service-icon-briefcase.webp" alt="service icon">
-									</div>
-									<div class="service__content">
-										<h5>
-											<a href="#">SECRETARIAL SERVICES</a>
-										</h5>
-										<p>
-											Cipro Services<br>
-											COIDA; CIDB; UIF<br>
-											Customs Registration<br>
-											Business Plans </p>
-									</div>
-								</div>
-							</div>
-							<!--// Single Service -->
-
-							<!-- Single Service -->
-							<div class="col-lg-4 col-md-6 wow flipInX">
-								<div class="service">
-									<div class="service__icon">
-										<img src="assets/images/icons/service-icon-briefcase-2.webp" alt="service icon">
-									</div>
-									<div class="service__content">
-										<h5>
-											<a href="#">International TAX</a>
-										</h5>
-										<p>Having a private accountant can help you stay on top of your tax matters. </p>
-									</div>
-								</div>
-							</div>
-							<!--// Single Service -->
-
-							<!-- Single Service -->
-							<div class="col-lg-4 col-md-6 wow flipInX">
-								<div class="service">
-									<div class="service__icon">
-										<img src="assets/images/icons/service-icon-pie.webp" alt="service icon">
-									</div>
-									<div class="service__content">
-										<h5>
-											<a href="#">Finance TAX</a>
-										</h5>
-										<p>Having a private accountant can help you stay on top of your tax matters. </p>
-									</div>
-								</div>
-							</div>
-							<!--// Single Service -->
-
-						</div>
-					</div>
-				</div>
-				<!--// Services Styles Bottom -->
-
 			</section>
-			<!--// Page Service Area -->
+			<!-- //About Area -->
+
+			<!-- Features Area -->
+				<section id="features-area" class="cr-section features-area">
+				<div class="row g-0">
+
+					<!-- Single Feature -->
+					<div class="col-lg-4">
+						<div class="feature">
+							<div class="feature__icon">
+								<span>
+									<i class="flaticon-shield"></i>
+								</span>
+								<span>
+									<i class="flaticon-shield"></i>
+								</span>
+							</div>
+							<div class="feature__content">
+								<h4 class="wow fadeInUp">
+									<a href="#">ASSURED SECURITY</a>
+								</h4>
+								<p class="wow fadeInUp" data-wow-delay="0.15s"> </p>
+							</div>
+						</div>
+					</div>
+					<!--// Single Feature -->
+
+					<!-- Single Feature -->
+					<div class="col-lg-4">
+						<div class="feature active">
+							<div class="feature__icon">
+								<span>
+									<i class="flaticon-team"></i>
+								</span>
+								<span>
+									<i class="flaticon-team"></i>
+								</span>
+							</div>
+							<div class="feature__content">
+								<h4 class="wow fadeInUp">
+									<a href="#">EXPERT TEAM</a>
+								</h4>
+								<p class="wow fadeInUp" data-wow-delay="0.15s"> </p>
+							</div>
+						</div>
+					</div>
+					<!--// Single Feature -->
+
+					<!-- Single Feature -->
+					<div class="col-lg-4">
+						<div class="feature">
+							<div class="feature__icon">
+								<span>
+									<i class="flaticon-24-hours"></i>
+								</span>
+								<span>
+									<i class="flaticon-24-hours"></i>
+								</span>
+							</div>
+							<div class="feature__content">
+								<h4 class="wow fadeInUp">
+									<a href="#">24/7 SUPPORT</a>
+								</h4>
+								<p class="wow fadeInUp" data-wow-delay="0.15s"> </p>
+							</div>
+						</div>
+					</div>
+					<!--// Single Feature -->
+
+				</div>
+			</section>
+			<!--// Features Area -->
+
+			<!-- Service Area -->
+				<section id="service-area" class="service-area section-padding--xlg bg--white">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-md-10">
+							<div class="section-title">
+								<!-- <h4>OUR SERVICES</h4> -->
+								<h2>OUR VISION, MISSION 
+									<span class="color--theme">& VALUES</span>
+								</h2>
+								<!-- <p>Expert accountancy assistance for your growing business. Our customers. the main beneficiaries of our expertise and services, will be the ones to
+									experience the integrity and professionalism of our work.</p> -->
+							</div>
+						</div>
+					</div>
+					<div class="row align-items-center">
+						<div class="col-lg-8">
+							<div class="service-area__services">
+								<div class="row">
+
+									<!-- Single Service -->
+									<div class="col-lg-6 col-md-6 wow flipInX">
+										<div class="service">
+											<div class="service__icon">
+												<img src="assets/images/icons/service-icon-user.webp" alt="service icon">
+											</div>
+											<div class="service__content">
+												<h5>
+													<a href="#">VISION</a>
+												</h5>
+												<p>is to be identified as the best professional service organization that enable our clients and our People to achieve the desired balance between personal, professional and financial success.  </p>
+											</div>
+										</div>
+									</div>
+									<!--// Single Service -->
+
+									<!-- Single Service -->
+									<div class="col-lg-6 col-md-6 wow flipInX">
+										<div class="service">
+											<div class="service__icon">
+												<img src="assets/images/icons/service-icon-bar.webp" alt="service icon">
+											</div>
+											<div class="service__content">
+												<h5>
+													<a href="#">MISSION</a>
+												</h5>
+												<p>Is To build and deliver impeccable financial services to the industry through excellence.
+
+												</p>
+											</div>
+										</div>
+									</div>
+									<!--// Single Service -->
+
+									<!-- Single Service -->
+									<div class="col-lg-6 col-md-6 wow flipInX">
+										<div class="service">
+											<div class="service__icon">
+												<img src="assets/images/icons/service-icon-briefcase.webp" alt="service icon">
+											</div>
+											<div class="service__content">
+												<h5>
+													<a href="#">VALUES</a>
+												</h5>
+												<p>are based on serving our customers in the best possible manner and these are:<br>
+
+													Integrity<br>
+													Quality<br>
+													Professionalism</p>
+											</div>
+										</div>
+									</div>
+									<!--// Single Service -->
+
+									<!-- Single Service -->
+									<div class="col-lg-6 col-md-6 wow flipInX">
+										<div class="service">
+											<div class="service__icon">
+												<img src="assets/images/icons/service-icon-pie.webp" alt="service icon">
+											</div>
+											<div class="service__content">
+												<h5>
+													<a href="#"></a>
+												</h5>
+												<p>This will be accomplished by inculcating a culture of professionalism, passion and teamwork that will enable us to continue attracting and retaining the best and brightest professionals, who will be recognized, respected, and rewarded for their contributions to a firm that is founded on shared core values.</p>
+											</div>
+										</div>
+									</div>
+									<!--// Single Service -->
+
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="service-area__bars text-center">
+								<div class="cr-bars justify-content-lg-end justify-content-center">
+									<div class="cr-bar" data-bar-percent="25" data-bar-title="2020"></div>
+									<div class="cr-bar" data-bar-percent="45" data-bar-title="2021"></div>
+									<div class="cr-bar" data-bar-percent="37" data-bar-title="2022"></div>
+									<div class="cr-bar" data-bar-percent="69" data-bar-title="2023"></div>
+									<div class="cr-bar" data-bar-percent="88" data-bar-title="2024"></div>
+								</div>
+								<span class="cr-bars__name">Our progress</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--// Service Area -->
+
 
 			<!-- Funfact Area -->
 			<div id="funfact-area" class="funfact-area bg--white">
@@ -409,7 +467,80 @@
 			</div>
 			<!--// Funfact Area -->
 
-		
+			<!-- Testimonial Area -->
+			<div id="testimonial-area" class="testimonial-area section-padding--xlg bg--white">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="section-title no-padding">
+								<h2>WHAT
+									<span class="color--theme">CLIENTS SAY</span>
+								</h2>
+								<!-- <p>perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudanti, totam rem aperiam, eaque
+									ipsa quae so something new for tax calculation </p> -->
+							</div>
+						</div>
+
+						<div class="col-lg-8">
+							<div class="testimonial testimonial-slider-style3-active testimonial--style3">
+
+								<!-- Testimonial Single -->
+								<div class="testimonial__single">
+
+									<!-- Testimonial Content Single -->
+									<div class="testimonial__content__single">
+										<p>parchitecto beatae vitae dicta sunt abo no enim ipsam voluptatem quia voluptas sit rnatur aut odit aut fugit, sed
+											quia</p>
+									</div>
+									<!--// Testimonial Content Single -->
+
+									<!-- Single Author -->
+									<div class="testimonial__author__single">
+										<div class="testimonial__author__image">
+											<img src="assets/images/testimonial/testimonial-author-3.webp" alt="testimonial author">
+										</div>
+										<div class="testimonial__author__description">
+											<h6>SHON SMITH</h6>
+											<span>President</span>
+										</div>
+									</div>
+									<!--// Single Author -->
+
+								</div>
+								<!--// Testimonial Single -->
+
+								<!-- Testimonial Single -->
+								<div class="testimonial__single">
+
+									<!-- Testimonial Content Single -->
+									<div class="testimonial__content__single">
+										<p>parchitecto beatae vitae dicta sunt abo no enim ipsam voluptatem quia voluptas sit rnatur aut odit aut fugit, sed
+											quia</p>
+									</div>
+									<!--// Testimonial Content Single -->
+
+									<!-- Single Author -->
+									<div class="testimonial__author__single">
+										<div class="testimonial__author__image">
+											<img src="assets/images/testimonial/testimonial-author-2.webp" alt="testimonial author">
+										</div>
+										<div class="testimonial__author__description">
+											<h6>RAISA MARIYA</h6>
+											<span>Ceo</span>
+										</div>
+									</div>
+									<!--// Single Author -->
+
+								</div>
+								<!--// Testimonial Single -->
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--// Testimonial Area -->
 
 			<!-- Call To Action Area -->
 		<section id="cta-area" class="cta-area section-padding--sm bg--grey--light bg--abstruct-mask">
@@ -441,7 +572,7 @@
 			<div class="footer-area__widgets section-padding--md bg--dark--light">
 				<div class="container">
 					<div class="footer-area__logo text-center">
-						<a href="index.html">
+						<a href="index.php">
 							<img src="assets/images/logo/logo.png" alt="footer logo">
 						</a>
 					</div>
@@ -484,17 +615,17 @@
 							<h5 class="widget-title">QUICK LINKS</h5>
 							<ul>
 								<li>
-									<a href="services.html">Our Services</a>
+									<a href="services.php">Our Services</a>
 								</li>
 							
 								<li>
-									<a href="about-us.html">About Us</a>
+									<a href="about-us.php">About Us</a>
 								</li>
 								<li>
 									<a href="#">Help Centre</a>
 								</li>
 								<li>
-									<a href="contact.html">Contact Us</a>
+									<a href="contact.php">Contact Us</a>
 								</li>
 							</ul>
 						</section>
@@ -581,7 +712,6 @@ Pretoria, South Africa</p>
     <script src="assets/js/scripts.js"></script>
 
 </body>
-
 
 
 </html>
